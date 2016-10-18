@@ -7,7 +7,7 @@
 			},
 			"state": 0,
 			"old": 0,
-			"activation": 0.2,
+			"activation": 0,
 			"bias": 0,
 			"layer": "input",
 			"squash": "LOGISTIC"
@@ -17,10 +17,10 @@
 				"elegibility": {},
 				"extended": {}
 			},
-			"state": 0.26404908353639023,
-			"old": 0.5176315854508537,
-			"activation": 0.5656313844296417,
-			"bias": -4.791146269587272,
+			"state": 3.3984524810066175,
+			"old": -6.278430293181159,
+			"activation": 0.9676561364937479,
+			"bias": 3.3984524810066175,
 			"layer": "0",
 			"squash": "LOGISTIC"
 		},
@@ -29,10 +29,34 @@
 				"elegibility": {},
 				"extended": {}
 			},
-			"state": 37.690971218425474,
-			"old": 37.017998455216684,
+			"state": 32.75728197663852,
+			"old": 24.26401952987203,
+			"activation": 0.999999999999994,
+			"bias": 32.75728197663852,
+			"layer": "0",
+			"squash": "LOGISTIC"
+		},
+		{
+			"trace": {
+				"elegibility": {},
+				"extended": {}
+			},
+			"state": 6.402365393960884,
+			"old": 1.6096975291395115,
+			"activation": 0.998345111515328,
+			"bias": 6.402365393960884,
+			"layer": "0",
+			"squash": "LOGISTIC"
+		},
+		{
+			"trace": {
+				"elegibility": {},
+				"extended": {}
+			},
+			"state": 53.13682096023056,
+			"old": 39.19956242245446,
 			"activation": 1,
-			"bias": 51.15042648260128,
+			"bias": 53.13682096023056,
 			"layer": "0",
 			"squash": "LOGISTIC"
 		},
@@ -41,10 +65,10 @@
 				"elegibility": {},
 				"extended": {}
 			},
-			"state": 23.3267485228138,
-			"old": 22.916262821281702,
-			"activation": 0.9999999999259845,
-			"bias": 31.5364625533414,
+			"state": 32.594634556738235,
+			"old": 17.716028247124974,
+			"activation": 0.9999999999999931,
+			"bias": 32.594634556738235,
 			"layer": "0",
 			"squash": "LOGISTIC"
 		},
@@ -53,34 +77,10 @@
 				"elegibility": {},
 				"extended": {}
 			},
-			"state": -8.064293963685984,
-			"old": -8.693874676495273,
-			"activation": 0.00031447421031830685,
-			"bias": 4.527269964916355,
-			"layer": "0",
-			"squash": "LOGISTIC"
-		},
-		{
-			"trace": {
-				"elegibility": {},
-				"extended": {}
-			},
-			"state": 15.160178400435608,
-			"old": 14.510726711282972,
-			"activation": 0.9999997393738056,
-			"bias": 28.149212152713996,
-			"layer": "0",
-			"squash": "LOGISTIC"
-		},
-		{
-			"trace": {
-				"elegibility": {},
-				"extended": {}
-			},
-			"state": 0.4266454745406958,
-			"old": 0.5153051209293942,
-			"activation": 0.6050723548868252,
-			"bias": 1.2156756844673713,
+			"state": -5.421998857580755,
+			"old": 0.4248919664888108,
+			"activation": 0.004398870692608216,
+			"bias": 2.2007810936382075,
 			"layer": "output",
 			"squash": "LOGISTIC"
 		}
@@ -89,61 +89,61 @@
 		{
 			"from": "0",
 			"to": "1",
-			"weight": 25.287359055327382,
+			"weight": -48.384819613467165,
 			"gater": null
 		},
 		{
 			"from": "0",
 			"to": "2",
-			"weight": -67.29727632087905,
+			"weight": -42.46631223385195,
 			"gater": null
 		},
 		{
 			"from": "0",
 			"to": "3",
-			"weight": -41.04857015269038,
+			"weight": -23.96794188018711,
 			"gater": null
 		},
 		{
 			"from": "0",
 			"to": "4",
-			"weight": -62.957875817658305,
+			"weight": -69.68629268888047,
 			"gater": null
 		},
 		{
 			"from": "0",
 			"to": "5",
-			"weight": -64.94516877264631,
+			"weight": -74.39303154878246,
 			"gater": null
 		},
 		{
 			"from": "1",
 			"to": "6",
-			"weight": 1.2816966602727695,
+			"weight": -5.933464426098939,
 			"gater": null
 		},
 		{
 			"from": "2",
 			"to": "6",
-			"weight": 19.290920793005363,
+			"weight": -18.38336977723418,
 			"gater": null
 		},
 		{
 			"from": "3",
 			"to": "6",
-			"weight": -19.57865810964843,
+			"weight": -0.9060427558882769,
 			"gater": null
 		},
 		{
 			"from": "4",
 			"to": "6",
-			"weight": -4.943556069139825,
+			"weight": 18.37435851101809,
 			"gater": null
 		},
 		{
 			"from": "5",
 			"to": "6",
-			"weight": -1.1946784240989268,
+			"weight": -0.9676720662560622,
 			"gater": null
 		}
 	]

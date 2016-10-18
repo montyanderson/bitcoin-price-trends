@@ -51,6 +51,9 @@ const generateNetwork = dataset => {
 
 	trainer.train(trainingSet);
 
+	network.activate([0]);
+	console.log(network.activate.toString());
+
 	const json = JSON.stringify(network.toJSON(), null, "\t");
 
 	return fs.writeFileAsync(__dirname + "/net.json", json)
