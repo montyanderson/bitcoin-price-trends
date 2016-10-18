@@ -49,14 +49,20 @@ const generateNetwork = dataset => {
 		};
 	});
 
-	console.log(trainingSet);
-	console.log(trainer.train(trainingSet));
+	trainer.train(trainingSet);
 
-	return i => network.activate([i / 100]) * 1000;
+	const json = JSON.stringify(network.toJSON(), null, "\t");
+
+	return fs.writeFileAsync(__dirname + "/net.json", json)
+		.then(() => {
+			return i => network.activate([i / 100]) * 1000;
+		});
 };
 
 getDataset()
 	.then(generateNetwork)
 	.then(getPrice => {
-		console.log(getPrice(100));
+		for(let i = 0; i <= 100; i += 10) {
+			console.log(i + " : " + getPrice(i));
+		}
 	});
